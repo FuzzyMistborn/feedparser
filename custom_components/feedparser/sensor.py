@@ -44,7 +44,7 @@ PLATFORM_SCHEMA = PLATFORM_SCHEMA.extend(
 
 
 """@asyncio.coroutine"""
-asyncio def async_setup_platform(
+async def async_setup_platform(
     hass: HomeAssistant,
     config: ConfigType,
     async_add_devices: AddEntitiesCallback,
